@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+ background-color: #1F2937; 
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.header-logo,
+.hero-main-text {
+  color: #F9FAF8;
+}
+
+.links,
+.lower-right-text {
+  color: #989a9f
+}

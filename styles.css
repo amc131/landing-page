@@ -86,9 +86,37 @@ body {
   color: #E5E7EB
 }
 
-.main-container {
+
+.second-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.squares-container {
   display: flex;
-  flex-
+  justify-content: center;
+  gap: 32px;
+}
+
+.square-outline {
+  height: 125px;
+  width: 125px;
+  border-radius: 12px;
+  border: 2px solid #3882F6;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square p {
+  text-align: center;
+  width: 145px;
 }
 
 

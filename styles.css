@@ -92,6 +92,7 @@ body {
   font-size: 36px;
   font-weight: 900;
   text-align: center;
+  padding-top: 16px;
 }
 
 .squares-container {
@@ -117,6 +118,34 @@ body {
 .square p {
   text-align: center;
   width: 145px;
+  padding-bottom: 64px;
+}
+
+.third {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  padding-top: 50px;
+  padding-left: 275px;
+  padding-right: 275px;
+  margin-bottom: 0;
+}
+
+.quote-subtext {
+  font-size: 24px;
+  font-weight: 900;
+  margin-left: auto;
+  padding-right: 275px;
+  padding-bottom: 50px;
+}
+
+.fourth {
+  display: flex;
 }
 
 

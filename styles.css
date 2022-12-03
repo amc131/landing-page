@@ -125,6 +125,7 @@ body {
   background-color: #E5E7EB;
   display: flex;
   flex-direction: column;
+  margin-bottom: 64px;
 }
 
 .quote {
@@ -145,9 +146,59 @@ body {
 }
 
 .fourth {
+  border: 1px solid red;
+  background-color: #3882F6;
+  border-radius: 10px;
   display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 45px 100px;
+  margin-bottom: 64px;
 }
 
+.fourth-left {
+  color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth-title {
+  font-size: 24px;
+  font-weight: 900;
+  flex: 1;
+  margin: 0;
+}
+
+.fourth-text {
+font-size: 18px;
+margin: 0;
+}
+
+.fourth-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.fourth-button {
+  background-color: #3882F6;
+  border: 1px solid #F9FAF8;
+  border-radius: 6px;
+  color: #F9FAF8;
+  padding: 6px 24px;
+}
+
+.footer {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+}
+
+.footer p {
+  color: #E5E7EB;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 
 
 
